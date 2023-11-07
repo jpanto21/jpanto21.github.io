@@ -1,8 +1,61 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: rgb(75, 165, 207);
+  display: flex;
+  justify-content: center;
 }
+.name{
+  font-size: 275%;
+  font-style: italic;
+  color: rgb(9, 10, 53);
+  display: flex;
+  justify-content: center;
+  border: .05em solid rgb(9, 10, 53);
+  border-radius: 158px;
+  background-color:rgb(132, 210, 247);
+
+}
+.headshot{
+  display: flex;
+  justify-content: center;
+}
+
 .headshot-image {
-  width: 128px;
-  height: 128px;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 158px;
+  border: .2em solid rgb(9, 10, 53);;
+ 
+}
+.imagesIcon {
+  width: 85px;
+  height: 85px;
+  border-radius: 85px;
+  object-fit: cover;
+  margin-right: 2em;
+  justify-content: space-around;
+}
+.everything{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 840px;
+}
+.links {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 20px 200px;
+  border: .2em solid rgb(9, 10, 53);
+  border-radius: 158px;
+}
+.links a {
+  font-size: 120%;
+  color: rgb(9, 10, 53);
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  
 }
